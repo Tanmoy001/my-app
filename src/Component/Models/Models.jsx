@@ -1,6 +1,6 @@
 // Model.jsx
 import React from 'react';
-import './Model.css';
+import './Models.css';
 import design_one from '../../assets/design_one.png';
 import design_two from '../../assets/design_two.png';
 import design_three from '../../assets/design_three.png';
