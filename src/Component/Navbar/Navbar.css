@@ -1,0 +1,107 @@
+.Navbar {
+
+    position: relative;
+    top: 49px;
+}
+
+
+.Navbar-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr .5fr;
+    width: 100%;
+    align-content: space-between;
+    background: #FFFFFF;
+
+}
+
+.navbar-container-left {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.Navbar-logo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px 20px;
+}
+.Navbar-links{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px 20px;
+}
+.Navbar-links .active {
+    color: #E12026;
+    ;
+  }
+
+.Navbar-links a {
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    font-weight: 500;
+    font-size: medium;
+    padding: 6px 8px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.navbar-container-right {
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.Navbar-button {
+    gap: 10px;
+    display: flex;
+}
+
+/* Button */
+.button-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 15px;
+    margin: 10px 20px;
+    background-color: #FFFFFF;
+}
+.button-one {
+    /* background-color: red; */
+    border: 1px solid black;
+    
+    background-color: white;
+    color: black;
+    font-size: medium;
+    padding: 6px 8px;
+    text-align: center;
+    border-radius: 10px;
+  }
+.button-two {
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: medium;
+    padding: 6px 8px;
+    text-align: center;
+    border-radius: 10px;
+  }
