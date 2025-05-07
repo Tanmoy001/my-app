@@ -17,7 +17,7 @@ const tools = [
   { src: design_six, name: 'Slack' }
 ];
 
-const Model = () => {
+const Models = () => {
   return (
     <section className="model-section">
     <div className="model-container">
@@ -45,5 +45,5 @@ const Model = () => {
   </section>
 );
 };
-export default Model;
+export default Models;
 
